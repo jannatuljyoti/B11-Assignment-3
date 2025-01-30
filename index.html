@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Pets</title>
+    <!-- daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <style>
+        .font-ADLaM{
+            font-family: "ADLaM Display", serif;
+        }
+
+        .font-sora{
+            font-family: "Sora", serif;
+        }
+
+    </style>
+
+    <!-- colors -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'btn-primary': '#FFDC26',
+                'bg-color': 'rgb(255, 249, 244)',
+              }
+            }
+          }
+        }
+      </script>
+
+      <!-- font awesome -->
+
+      <script src="https://kit.fontawesome.com/7d47db918a.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body class="font-ADLaM">
+    <!-- header section -->
+
+    <header >
+        <!-- nav section -->
+         <nav class="bg-bg-color">
+            <div class="navbar">
+                <div class="navbar-start lg:ml-28">
+                  <img src="c1-assets/logo-header.png" alt="logo">
+                  <p class="font-sora text-2xl font-normal hidden lg:block">Browse <span class="text-yellow-300">4</span> Pets</p>
+                </div>
+
+
+                <div class="navbar-center hidden lg:block">
+                 <ul class="flex gap-8">
+                    <li><a href=""><span class="font-sora font-normal tex-lg">Find a pet</span></a></li>
+                    <li><a href=""><span class="font-sora font-normal tex-lg">Breeds</span></a></li>
+                    <li><a href=""><span class="font-sora font-normal tex-lg">Contact us</span></a></li>
+                 </ul>
+                </div>
+
+
+                <div class="navbar-end gap-5 lg:mr-28">
+                  <button class="hidden lg:block"><i class="fa-regular fa-bell"></i></button>
+
+                  <button class="hidden lg:block"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                  <button class="w-20 h-10 rounded-lg border-2 border-yellow-400 hidden lg:block"><span class="font-sora font-normal tex-lg">Login</span></button>
+
+                  <button class="w-32 h-10 rounded-lg bg-yellow-400 hidden lg:block"><span class="font-sora font-normal tex-lg">Register</span></button>
+
+                  <button class="block lg:hidden"><i class="fa-solid fa-bars"></i></button>
+
+                </div>
+              </div>
+         </nav>
+
+         <!-- banner section -->
+
+         <section class="md:container mx-auto">
+            <!--  -->
+         </section>
+    </header>
+
+<!-- main section -->
+
+    <main>
+
+    </main>
+
+<!-- footer section -->
+
+    <footer>
+
+    </footer>
+</body>
+</html>
