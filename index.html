@@ -52,8 +52,8 @@
     <header >
         <!-- nav section -->
          <nav class="bg-bg-color ">
-            <div class="navbar ">
-                <div class="navbar-start lg:ml-28">
+            <div class="navbar md:container mx-auto ">
+                <div class="navbar-start ">
                   <img src="c1-assets/logo-header.png" alt="logo">
                   <p class="font-sora text-2xl font-normal hidden lg:block">Browse <span class="text-yellow-300">4</span> Pets</p>
                 </div>
@@ -68,7 +68,7 @@
                 </div>
 
 
-                <div class="navbar-end gap-5 lg:mr-28 ">
+                <div class="navbar-end gap-5 ">
                   <button class="hidden lg:block"><i class="fa-regular fa-bell"></i></button>
 
                   <button class="hidden lg:block"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -86,14 +86,14 @@
          <!-- banner section -->
 
          <section class="md:container  mx-auto">
-         <div class="mt-16 relative flex flex-col">
-            <div class=" lg:absolute top-12 pl-7 space-y-4">
+         <div class="mt-16 relative flex flex-col ">
+            <div class=" lg:absolute top-12 pl-7 space-y-4 animate-bounce">
                 <h2 class="text-5xl">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h2>  
              <p class="font-sora font-normal text-xl">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
              <button class="w-32 h-10 rounded-lg bg-yellow-400"><span class="font-sora font-normal text-xl">Find a pet</span></button>
              </div>
     
-             <div class="hover:animate-spin">
+             <div>
                 <img src="c1-assets/cat-big.png" alt="" >
              </div>
 
@@ -105,12 +105,12 @@
 
 <!-- main section -->
 
-    <main class="md:container  mx-auto">
+    <main>
 
     <!-- browse categories   -->
 
-    <section class="mt-32">
-      <div class="pl-2 pr-2">
+    <section class=" md:container  mx-auto">
+      <div class="mt-32 pl-2 pr-2 pb-32">
         <h2 class="text-4xl">Browse By Categories</h2>
 
         <!-- card section -->
@@ -120,7 +120,7 @@
           <!-- card 1 -->
            <div class="bg-bg-card rounded-xl h-64 items-center text-center ">
             <div class="flex items-center justify-center pt-8">
-              <img class="bg-white rounded-full p-4" src="c1-assets/dog-cartoon.png" alt="">
+              <img class="bg-white rounded-full p-5" src="c1-assets/dog-cartoon.png" alt="">
              </div>
              <div class=" pt-6 ">
               <h2 class="text-xl ">Dog</h2>
@@ -131,7 +131,7 @@
           <!-- card 2 --> 
           <div class="bg-bg-card rounded-xl h-64 items-center text-center ">
             <div class="flex items-center justify-center pt-8">
-              <img class="bg-white rounded-full p-4" src="c1-assets/fish-cartoon.png" alt="">
+              <img class="bg-white rounded-full p-5" src="c1-assets/fish-cartoon.png" alt="">
              </div>
              <div class=" pt-6 ">
               <h2 class="text-xl ">Fish</h2>
@@ -142,7 +142,7 @@
           <!-- card 3 -->
           <div class="bg-bg-card rounded-xl h-64 items-center text-center">
             <div class="flex items-center justify-center pt-8">
-              <img class="bg-white rounded-full p-4" src="c1-assets/Cat-cartoon.png" alt="">
+              <img class="bg-white rounded-full p-5" src="c1-assets/Cat-cartoon.png" alt="">
              </div>
              <div class=" pt-6 ">
               <h2 class="text-xl ">Cat</h2>
@@ -153,7 +153,7 @@
           <!-- card 4 --> 
           <div class="bg-bg-card rounded-xl h-64 items-center text-center">
             <div class="flex items-center justify-center pt-8">
-              <img class="bg-white rounded-full p-4" src="c1-assets/bird-cartoon.png" alt="">
+              <img class="bg-white rounded-full p-5" src="c1-assets/bird-cartoon.png" alt="">
              </div>
              <div class=" pt-6 ">
               <h2 class="text-xl ">Birds</h2>
@@ -164,7 +164,7 @@
           <!-- card 5 --> 
           <div class="bg-bg-card rounded-xl h-64 items-center text-center">
             <div class="flex items-center justify-center pt-8">
-              <img class="bg-white rounded-full p-4" src="c1-assets/mouse-cartoon.png" alt="">
+              <img class="bg-white rounded-full p-5" src="c1-assets/mouse-cartoon.png" alt="">
              </div>
              <div class=" pt-6 ">
               <h2 class="text-xl ">Small pet</h2>
@@ -175,7 +175,7 @@
           <!-- card 6 --> 
           <div class="bg-bg-card rounded-xl h-64 items-center text-center">
             <div class="flex items-center justify-center pt-8">
-              <img class="bg-white rounded-full p-4" src="c1-assets/rabbit-cartoon.png" alt="">
+              <img class="bg-white rounded-full p-5" src="c1-assets/rabbit-cartoon.png" alt="">
              </div>
              <div class=" pt-6 ">
               <h2 class="text-xl ">Rabit</h2>
@@ -190,6 +190,182 @@
 
       </div>
       
+    </section>
+
+    <!-- Trending Pet -->
+
+    <section class="bg-bg-color">
+      <div class="md:container  mx-auto">
+        <div class="pt-32">
+          <h2 class="text-4xl ">Trending Pet Products</h2>
+
+        </div>
+        <!-- card -->
+
+        <div class="flex-cols lg:flex  gap-x-6 mt-12 pb-32">
+          <!-- content -->
+          <div class="flex relative   lg:pt-12 lg:pl-8 bg-bg-card lg:w-1/2 h-[400px] rounded-lg">
+            <div class="space-y-4">
+              <h3 class="text-3xl">T-Shirt For Dogs</h3>
+            <p class="font-thin text-gray-600">Comfortable, stylish, breathable, soft, adjustable, <br> cute,  protective, washable, durable, trendy.</p>
+            <button class="w-32 h-10 rounded-lg bg-white">Shop Now</button>
+
+            </div>
+            <div class="absolute top-0 right-1">
+              <img src="c1-assets/cute-pet-small.png" alt="cute pet">
+            </div>
+          </div>
+
+          <!-- card box -->
+           <div class=" lg:w-1/2 gap-6 grid grid-cols-2 lg:grid-cols-3 ">
+            <!-- card 1   -->
+             <div class="flex  bg-base-100 shadow-xl rounded-lg gap-2 items-center">
+              <div class="items-center">
+                <img class="p-4 bg-bg-color rounded-lg" src="c1-assets/dog-cartoon.png" alt="">
+              </div>
+
+              <div>
+                
+                <p><i class="fa-regular fa-star text-orange-500 fill-orange-500"></i> <span>4.5</span></p> 
+                <p>Pet Bed</p>
+                <p>$39.99</p>
+
+              </div>
+
+             </div>
+
+             <!-- card 2 -->
+             <div class="flex bg-base-100 shadow-xl rounded-lg gap-2 items-center">
+              <div class="items-center">
+                <img class="p-4 bg-bg-color rounded-lg" src="c1-assets/fish-cartoon.png" alt="">
+              </div>
+
+              <div>
+                
+                <p><i class="fa-regular fa-star text-orange-500 fill-orange-500"></i> <span>4.5</span></p> 
+                <p>Pet Bed</p>
+                <p>$39.99</p>
+
+              </div>
+
+             </div>
+
+             <!-- card 3 -->
+             <div class="flex bg-base-100 shadow-xl rounded-lg gap-2 items-center">
+              <div class="items-center">
+                <img class="p-4 bg-bg-color rounded-lg" src="c1-assets/bird-cartoon.png" alt="">
+              </div>
+
+              <div>
+                
+                <p><i class="fa-regular fa-star text-orange-500 fill-orange-500"></i> <span>4.5</span></p> 
+                <p>Pet Bed</p>
+                <p>$39.99</p>
+
+              </div>
+
+             </div>
+
+             <!-- card 4 -->
+             <div class="flex bg-base-100 shadow-xl rounded-lg gap-2 items-center">
+              <div class="items-center">
+                <img class="p-4 bg-bg-color rounded-lg" src="c1-assets/rabbit-cartoon.png" alt="">
+              </div>
+
+              <div>
+                
+                <p><i class="fa-regular fa-star text-orange-500 fill-orange-500"></i> <span>4.5</span></p> 
+                <p>Pet Bed</p>
+                <p>$39.99</p>
+
+              </div>
+
+             </div>
+
+             <!-- card 5 -->
+             <div class="flex bg-base-100 shadow-xl rounded-lg gap-2 items-center">
+              <div class="items-center">
+                <img class="p-4 bg-bg-color rounded-lg" src="c1-assets/bird-cartoon.png" alt="">
+              </div>
+
+              <div>
+                
+                <p><i class="fa-regular fa-star text-orange-500 fill-orange-500"></i> <span>4.5</span></p> 
+                <p>Pet Bed</p>
+                <p>$39.99</p>
+
+              </div>
+
+             </div>
+
+             <!-- card 6 -->
+             <div class="flex bg-base-100 shadow-xl rounded-lg gap-2 items-center">
+              <div class="items-center">
+                <img class="p-4 bg-bg-color rounded-lg" src="c1-assets/pet-couch.png" alt="">
+              </div>
+
+              <div>
+                
+                <p><i class="fa-regular fa-star text-orange-500 fill-orange-500"></i> <span>4.5</span></p> 
+                <p>Pet Bed</p>
+                <p>$39.99</p>
+
+              </div>
+
+             </div>
+
+             <!-- card 7 -->
+             <div class="flex bg-base-100 shadow-xl rounded-lg gap-2 items-center">
+              <div class="items-center">
+                <img class="p-4 bg-bg-color rounded-lg" src="c1-assets/fish-cartoon.png" alt="">
+              </div>
+
+              <div>
+                
+                <p><i class="fa-regular fa-star text-orange-500 fill-orange-500"></i> <span>4.5</span></p> 
+                <p>Pet Bed</p>
+                <p>$39.99</p>
+
+              </div>
+
+             </div>
+
+             <!-- card 8 -->
+             <div class="flex bg-base-100 shadow-xl rounded-lg gap-2 items-center">
+              <div class="items-center">
+                <img class="p-4 bg-bg-color rounded-lg" src="c1-assets/pet-couch.png" alt="">
+              </div>
+
+              <div>
+                
+                <p><i class="fa-regular fa-star text-orange-500 fill-orange-500"></i> <span>4.5</span></p> 
+                <p>Pet Bed</p>
+                <p>$39.99</p>
+
+              </div>
+
+             </div>
+
+             <!-- card 9 -->
+             <div class="flex bg-base-100 shadow-xl rounded-lg gap-2 items-center ">
+              <div class="items-center">
+                <img class="p-4 bg-bg-color rounded-lg" src="c1-assets/rabbit-cartoon.png" alt="">
+              </div>
+
+              <div>
+                
+                <p><i class="fa-regular fa-star text-orange-500 fill-orange-500"></i> <span>4.5</span></p> 
+                <p>Pet Bed</p>
+                <p>$39.99</p>
+
+              </div>
+
+             </div>
+
+           </div>
+
+        </div>
+      </div>
     </section>
 
 
